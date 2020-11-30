@@ -40,10 +40,10 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Techium will be the name of the company we will use across our webpages.
 
 ## Sitemap of the project
-![Sitemap of the project](/img/Sitemap of the project.png)
+![Sitemap of the project](/img/Sitemap_of_the_project.png)
 
 ## Wireframe of Techium project
-![Wireframe of Techium project](/img/Wireframe of Techium project.png)
+![Wireframe of Techium project](/img/Wireframe_of_Techium_project.png)
 
 
 
