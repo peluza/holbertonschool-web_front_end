@@ -16,6 +16,7 @@ Important note: details are important! lowercase vs uppercase / wrong letter… 
 - [HTML Reference - A free guide to all HTML elements and attributes](https://htmlreference.io/)
 - [Can I use… Support tables for HTML5, CSS3, etc](https://caniuse.com/)
 - [HTML Cheat Sheet - WebsiteSetup](https://websitesetup.org/html5-cheat-sheet/)
+- [HTML - elements of a web page](https://intranet.hbtn.io/concepts/139)
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
@@ -40,10 +41,10 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Techium will be the name of the company we will use across our webpages.
 
 ## Sitemap of the project
-![Sitemap of the project](/img/Sitemap_of_the_project.png)
+![Sitemap of the project](./img/Sitemap_of_the_project.png)
 
 ## Wireframe of Techium project
-![Wireframe of Techium project](/img/Wireframe_of_Techium_project.png)
+![Wireframe of Techium project](./img/Wireframe_of_Techium_project.png)
 
 
 
