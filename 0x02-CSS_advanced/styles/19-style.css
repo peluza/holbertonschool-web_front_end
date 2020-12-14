@@ -219,20 +219,6 @@ h6 {
   text-align: var(--section-footer-align);
 }
 
-.footer {
-  padding: var(--footer-padding);
-}
-
-.footer-copyright {
-  margin: 0;
-  font-size: var(--font-size-small);
-  color: var(--text-color);
-}
-
-.footer ul {
-  text-align: right;
-}
-
 .section-title {
   font-family: var(--font-family-title);
   font-size: var(--font-size-xx-large);
@@ -300,6 +286,20 @@ ul .row {
 
 .nav .nav-link:hover {
   color: var(--nav-item-link-hover);
+}
+
+.footer {
+  padding: var(--footer-padding);
+}
+
+.footer-copyright {
+  margin: 0;
+  font-size: var(--font-size-small);
+  color: var(--text-color);
+}
+
+.footer ul {
+  text-align: right;
 }
 
 :root {
