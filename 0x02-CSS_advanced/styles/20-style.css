@@ -302,9 +302,9 @@ ul.row {
   text-align: right;
 }
 
-.row {
-  content: none;
-  display: grid;
+.row::after {
+  content: "";
+  display: table;
   float: none;
 }
 
