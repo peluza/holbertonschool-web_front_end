@@ -288,17 +288,17 @@ ul .row {
   color: var(--nav-item-link-hover);
 }
 
-footer {
+.footer {
   padding: var(--footer-padding);
 }
 
-footer .footer-copyright {
+.footer-copyright {
   margin: 0;
   font-size: var(--font-size-small);
   color: var(--text-color);
 }
 
-footer ul {
+.footer ul {
   text-align: right;
 }
 
