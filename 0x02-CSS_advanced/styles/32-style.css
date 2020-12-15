@@ -259,7 +259,6 @@ h6 {
   width: 100%;
   object-fit: cover;
   vertical-align: bottom;
-  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-inner {
@@ -322,6 +321,7 @@ h6 {
 
 .card-work:hover .card-image {
   transform: scale(1.2);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer {
