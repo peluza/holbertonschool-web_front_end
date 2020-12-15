@@ -310,6 +310,7 @@ h6 {
   content: \201c;
   position: absolute;
   top: -4.5rem;
+  left: -1rem;
   color: #efeded;
   font-size: 10rem;
   z-index: -1;
