@@ -197,7 +197,7 @@ a:active {
   text-decoration: var(--button-hover-text-decoration);
   background-color: var(--button-hover-background);
   transition-duration: var(--transition-duration);
-  transition-property: var(--transition-property);
+  transition-property: color, background-color;
 }
 
 h1,
@@ -549,5 +549,4 @@ ul.row {
   --header-logo-link-left: 0;
   --transition-duration: 0.3s;
   --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
-  --transition-property: color, background-color;
 }
