@@ -307,7 +307,7 @@ h6 {
 }
 
 .card-testimonial .card-quote::before {
-  content: \201c;
+  content: "\201c";
   position: absolute;
   top: -4.5rem;
   left: -1rem;
