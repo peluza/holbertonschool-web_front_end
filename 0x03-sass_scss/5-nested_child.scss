@@ -1,0 +1,10 @@
+/* 5-nested_child */
+$color-text: #3d3d3d;
+$color-text-red: #ff0000;
+body {
+  color: $color-text;
+
+  > .red {
+    color: $color-text-red;
+  }
+}
