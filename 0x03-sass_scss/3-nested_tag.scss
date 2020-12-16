@@ -1,0 +1,11 @@
+/* 3-nested_tag */
+$margin-body: 0px;
+$margin-body-p: 10px;
+$margin-body-pading: 0px;
+body {
+  margin: $margin-body;
+  padding: $margin-body-pading;
+}
+body p {
+  margin: $margin-body-p;
+}
