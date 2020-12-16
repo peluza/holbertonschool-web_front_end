@@ -6,8 +6,9 @@ body {
   font-size: $font-size-body;
   h1 {
     font-size: $font-size-body-h1;
-  }
-  h1.smaller {
-    font-size: $font-size-body-smaller-h1;
+
+    &.smaller {
+      font-size: $font-size-body-smaller-h1;
+    }
   }
 }
