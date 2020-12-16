@@ -1,0 +1,12 @@
+/* 8-mixin_margins */
+@mixin margins($margins_left-rigth) {
+  margin-left: $margins_left-rigth;
+  margin-right: $margins_left-rigth;
+}
+body {
+  @include margins(10px);
+}
+
+div {
+  @include margins(15px);
+}
