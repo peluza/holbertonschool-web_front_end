@@ -1,0 +1,22 @@
+/* 102-media_query */
+$color: #1d1d1d;
+$font-size-h1: 20px;
+$font-size-h1-width-960: 18px;
+$font-size-h1-width-640: 16px;
+$font-size-h1-width-320: 14px;
+
+h1 {
+  font-size: $font-size-h1;
+  @media screen and (max-width: 960px) {
+    font-size: $font-size-h1-width-960;
+  }
+  @media screen and (max-width: 640px) {
+    font-size: $font-size-h1-width-640;
+  }
+  @media screen and (max-width: 320px) {
+    font-size: $font-size-h1-width-320;
+    &.small {
+      color: $color;
+    }
+  }
+}
