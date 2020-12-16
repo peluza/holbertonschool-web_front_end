@@ -1,0 +1,9 @@
+/* 6-nested_hover */
+$color-text-button: #ff0000;
+$colot-text-button-hover: #00ff00;
+button {
+  color: $color-text-button;
+  &:hover {
+    color: $colot-text-button-hover;
+  }
+}
