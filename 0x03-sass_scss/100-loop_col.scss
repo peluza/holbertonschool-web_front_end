@@ -1,0 +1,8 @@
+/* All names */
+$col: 4;
+
+@for $i from 1 through $col {
+  .col-#{$i} {
+    width: (100% / $i);
+  }
+}
