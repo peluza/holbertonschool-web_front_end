@@ -8,11 +8,11 @@ $color-text-warning: #ff0000;
 }
 
 .success {
-  color: $color-text-succes;
   @extend .info;
+  color: $color-text-succes;
 }
 
 .warning {
-  color: $color-text-warning;
   @extend .info;
+  color: $color-text-warning;
 }
