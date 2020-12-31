@@ -849,8 +849,6 @@ input[type="text"] {
   box-shadow: none;
   outline: 0;
   padding-right: 3rem;
-  border: 0.1rem solid var(--color-grey);
-  background-color: var(--color-light-grey);
 }
 
 input[type="email"] {
@@ -863,8 +861,6 @@ input[type="email"] {
   box-shadow: none;
   outline: 0;
   padding-right: 3rem;
-  border: 0.1rem solid var(--color-grey);
-  background-color: var(--color-light-grey);
 }
 
 textarea {
@@ -876,11 +872,24 @@ textarea {
   background-color: var(--color-white);
   box-shadow: none;
   outline: 0;
-  border: 0.1rem solid var(--color-grey);
-  background-color: var(--color-light-grey);
 }
 
 ::placeholder {
   font-style: italic;
   font-size: var(--font-size-small);
+}
+
+input[type="email"]:focus {
+  border: 0.1rem solid var(--color-grey);
+  background-color: var(--color-light-grey);
+}
+
+input[type="text"]:focus {
+  border: 0.1rem solid var(--color-grey);
+  background-color: var(--color-light-grey);
+}
+
+textarea:focus {
+  border: 0.1rem solid var(--color-grey);
+  background-color: var(--color-light-grey);
 }
