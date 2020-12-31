@@ -312,8 +312,8 @@ a:active {
   background: var(--color-primary);
 }
 
-.button-primary {
-  color: var(--color-white);
+.button-primary:hover {
+  color: var(--color-primary);
   background: var(--color-white);
 }
 
