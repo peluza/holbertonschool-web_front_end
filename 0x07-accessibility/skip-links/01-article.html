@@ -20,6 +20,21 @@
     <link rel="stylesheet" href="01-styles.css" />
   </head>
   <body class="article-page">
+    <!-- Skip links -->
+    <nav aria-label="Skip links">
+      <ol class="off-screen">
+        <li>
+          <a href="#a11y-primary-nav" class="skip-link"
+            >Skip to primary navigation
+          </a>
+        </li>
+        <li>
+          <a href="#a11y-main-content" class="skip-link">
+            Skip to main content
+          </a>
+        </li>
+      </ol>
+    </nav>
     <!-- Header -->
     <header class="header" data-section-theme="dark">
       <div class="container">
@@ -342,7 +357,19 @@
                   <div class="form-field">
                     <span class="form-field-container">
                       <input
-                        type="email"
+                        type="email"  <!-- Skip links -->
+                        <nav aria-label="Skip links" > 
+                            <ol class="off-screen">
+                                <li> 
+                                    <a href="#a11y-primary-nav" class="skip-link">Skip to primary navigation
+                      
+                                </a>
+                              </li>
+                              <li>
+                                  <a href="#a11y-main-content" class="skip-link">Skip to main content
+                                  </a>
+                              </li>
+                            </ol>
                         name="your-email"
                         id="your-email"
                         placeholder="e.g. youremail@gmail.com"
@@ -512,18 +539,5 @@
       </div>
     </footer>
   </body>
-  <!-- Skip links -->
-  <nav aria-label="Skip links" > 
-      <ol class="off-screen">
-          <li> 
-              <a href="#a11y-primary-nav" class="skip-link">Skip to primary navigation
-
-          </a>
-        </li>
-        <li>
-            <a href="#a11y-main-content" class="skip-link">Skip to main content
-            </a>
-        </li>
-      </ol>
 </html>
 
