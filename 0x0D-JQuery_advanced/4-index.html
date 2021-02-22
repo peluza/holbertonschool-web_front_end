@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Task 0</title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <script type="application/javascript">
+      function createFamilyTree() {
+        $("body").append("<table>");
+        $("table").append("<thead>");
+        $("thead").append("<tr>");
+        $("thead > tr").append("<th>");
+        $("thead > tr > th").text("Firstname");
+        $("thead > tr").append("<th>");
+        $("thead > tr th:last-child").text("Lastname");
+        $("table").append("<tbody>");
+        $("tbody").append("<tr>");
+        $("tbody").append("<tr>");
+        $("tbody").append("<tr>");
+        $("tbody > tr:nth-child(1)").append("<td>");
+        $("tbody > tr:nth-child(1)").append("<td>");
+        $("tbody > tr:nth-child(1) td:first-child").text("Guillaume");
+        $("tbody > tr:nth-child(1) td:last-child").text("Salva");
+        $("tbody > tr:nth-child(2)").append("<td>");
+        $("tbody > tr:nth-child(2)").append("<td>");
+        $("tbody > tr:nth-child(2) td:first-child").text("Paulette");
+        $("tbody > tr:nth-child(2) td:last-child").text("Salva");
+        $("tbody > tr:nth-child(3)").append("<td>");
+        $("tbody > tr:nth-child(3)").append("<td>");
+        $("tbody > tr:nth-child(3) td:first-child").text("Antoine");
+        $("tbody > tr:nth-child(3) td:last-child").text("Salva");
+      }
+      createFamilyTree();
+
+      function replaceFamilyTree() {
+        $("tbody").replaceWith(
+          "<tr> \
+			<td>Gerard</td> \
+			<td>Bonissa</td> \
+			</tr>"
+        );
+      }
+      replaceFamilyTree();
+    </script>
+  </body>
+</html>
